@@ -1,0 +1,130 @@
+body {
+    max-width: 1200px; /* Adjust this value as needed */
+    margin: 0 auto;
+}
+
+.upper-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    padding-top: 70px;
+}
+
+.header-text {
+    font-weight: 600;
+    font-size: 50px;
+    margin-left: 30px;
+    margin-bottom: 0px;
+    padding-right: 60px
+}
+
+.sub-header-text {
+    font-weight: 300;
+    font-size: 20px;
+    margin-top: -35px;
+    padding-left: 30px;
+    padding-right: 60px;
+    transition: opacity 0.5s text-decoration 0.5s;
+    
+}
+
+.connect-link:hover {
+    opacity: 0.7;
+    cursor: pointer;
+    text-decoration: underline;
+    color: rgb(90, 197, 255);
+}
+
+.header-photo-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+.header-photo1-container,
+.header-photo2-container {
+    position: relative;
+    display: inline-block;
+}
+
+.header1-photo,
+.header2-photo {
+    width: 600px;
+    height: 600px;
+    object-fit: cover;
+}
+
+.photo1-bottom-overlay,
+.photo2-bottom-overlay {
+    position: absolute;
+    bottom: 4px;
+    left: 0;
+    right: 0;
+    height: 90px;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.service-button {
+    background-color: rgb(57, 150, 187);
+    color: white;
+    border-width: 1px;
+    border-style: none;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.service-button:hover {
+    background-color: rgb(134, 213, 255);
+    cursor: poitter;
+}
+
+.service-button:active {
+    background-color: rgb(90, 197, 255);
+}
+
+.header-photo2-container {
+    position: relative;
+    display: inline-block;
+}
+
+.middle-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    margin-top: 250px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 100px;
+    justify-content: end;
+}
+
+.about-me-title {
+    font-weight: 400;
+    font-size: 30px;
+    padding-left: 20px;
+}
+
+.about-me-text {
+    font-weight: 300;
+    font-size: 20px;
+    margin-top: 10px;
+    padding-right: 60px;
+    padding-left: 20px;
+}
+
+.about-me-photo {
+    width: 250px;
+    height: 300px;
+    border-radius: 15px;
+    margin-right: 20px;
+    margin-bottom: 100px;
+}
