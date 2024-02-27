@@ -1,0 +1,51 @@
+.header {
+    height: 55px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    background-color: rgb(36, 23, 215);
+    margin-bottom: 0;
+    
+}
+
+.header-tabs {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    color: white;
+    margin: 16px 40px;
+    font-family: Space Grotesk, sans-serif;
+    font-weight: 500;
+}
+
+.home-tab:hover,
+.services-tab:hover,
+.projects-tab:hover,
+.photography-tab:hover,
+.contact-tab:hover {
+    opacity: 0.7;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.home-tab,
+.services-tab,
+.projects-tab,
+.photography-tab,
+.contact-tab {
+    padding-right: 20px;
+}
+
+.home-tab-link,
+.services-tab-link,
+.projects-tab-link,
+.photography-tab-link,
+.contact-tab-link {
+    text-decoration: none;
+    color: white;
+}
+
+
